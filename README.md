@@ -10,7 +10,8 @@ Eventually we would support other options like scramble filtering and seeding.
 ##API
 
 ```
-import twoByTwoScrambler from 'two-by-two-scrambler';
+import getScramble from 'two-by-two-scrambler';
 
-let scramble = 
+let scramble = getScramble();
+// => "F R U R' U2 F2 R' U' F' U2"
 ```
